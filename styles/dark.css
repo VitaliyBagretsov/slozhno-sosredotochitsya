@@ -13,14 +13,14 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  
+
   .theme_auto {
     --text-color: #f1b2ce;
     --accent-color: #ff0070;
     background-image: url(../images/cover-image-dark.png);
   }
 
-  .theme_auto .header__text {
+  .header__text {
     color: #000028;
     background-color: var(--accent-color);
   }

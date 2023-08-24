@@ -54,9 +54,22 @@
   cursor: pointer;
 }
 
+.header__theme-menu-button:hover {
+  border: 1px solid rgba(255 0 112 / 0.40) ;
+}
+
+.header__theme-menu-button:focus,
+.header__theme-menu-button:focus-visible {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--accent-color);
+}
+
 .header__theme-menu-button.header__theme-menu-button_active {
   cursor: none;
-  outline: 1px solid var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .title {
