@@ -37,6 +37,10 @@
   text-shadow: 4px 4px 0 #ff0070;
 }
 
+.theme_light .section__title {
+  color: var(--text-color);
+}
+
 @media (width < 1024px) {
 
   .theme_light .title {
@@ -44,16 +48,17 @@
   }
 }
 
-.theme_light .section__title {
-  color: var(--text-color);
-}
-
 @media (prefers-color-scheme: light) {
 
-  .theme_auto {
+  :root {
     --text-color: #353430;
     --accent-color: #ff8dcb;
   }
+
+  /* .theme_auto {
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+  } */
 
   .page {
     background-image: url(../images/cover-image-light.png);
