@@ -19,8 +19,7 @@
 .header {
   padding: var(--padding-mobile);
   display: grid;
-  grid-template-rows: 33vh 28vh auto;
-  row-gap: 10px;
+  grid-template-rows: 33vh 30vh auto;
   position: relative;
   block-size: 100vh;
   margin-block-end: 40px;
@@ -154,24 +153,26 @@
 @media (width >= 768px) {
   
   .header {
-    padding: 20px 20px 20px 0;
+    padding: 20px;
     grid-template-rows: 43vh auto 43vh;
     margin-block-end: 60px;
   }
   
   .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    position: relative;
+    left: -20px;
   }
   
   .header__text {
-    width: calc(50% - 10px);
+    width: 50% ;
   }
 }
 
 @media (width >= 1024px) {
   
   .header {
-    grid-template-rows: 38vh auto 38vh;
+    grid-template-rows: 39vh auto 39vh;
   }
 
   .header__theme-menu {
