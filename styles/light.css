@@ -46,6 +46,9 @@
   .theme_auto {
     --text-color: #353430;
     --accent-color: #ff8dcb;
+  }
+
+  .page {
     background-image: url(../images/cover-image-light.png);
   }
 
