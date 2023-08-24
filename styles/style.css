@@ -24,6 +24,7 @@
     clamp(13.4rem, 11rem + 2.799vw, 14.4375rem);
   row-gap: 10px;
   position: relative;
+  block-size: 100vh;
   margin-block-end: 40px;
 }
 
@@ -296,7 +297,7 @@
 
 .footer {
   padding: var(--padding-mobile);
-  block-size: clamp(41.6875rem, 20.3969rem + 90.8397vw, 64rem);
+  block-size: 100vh;
   position: relative;
   margin-block-start: 40px;
   display: flex;
@@ -308,6 +309,5 @@
   
   .footer {
     margin-block-start: 60px;
-    block-size: 768px;
   }
 }
