@@ -13,6 +13,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  
   .theme_auto {
     --text-color: #f1b2ce;
     --accent-color: #ff0070;

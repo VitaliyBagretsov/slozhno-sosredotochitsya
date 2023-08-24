@@ -24,7 +24,7 @@
   border-color: var(--text-color);
 }
 
-.theme_light .header__title {
+.theme_light .title {
   color: #ffc2e6;
   text-shadow: 4px 4px 0 #ff0070;
 }
@@ -34,6 +34,7 @@
 }
 
 @media (prefers-color-scheme: light) {
+  
   .theme_auto {
     --text-color: #353430;
     --accent-color: #ff8dcb;
@@ -57,7 +58,7 @@
     border-color: var(--text-color);
   }
 
-  .theme_auto .header__title {
+  .theme_auto .title {
     color: #ffc2e6;
     text-shadow: 4px 4px 0 #ff0070;
   }
