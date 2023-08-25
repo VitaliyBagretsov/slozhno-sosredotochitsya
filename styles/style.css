@@ -19,9 +19,10 @@
 .header {
   padding: var(--padding-mobile);
   display: grid;
-  grid-template-rows: 33vh 30vh auto;
+  grid-template-rows: 33.5vh 30vh auto;
   position: relative;
   block-size: 100vh;
+  min-block-size: 668px;
   margin-block-end: 40px;
 }
 
@@ -69,6 +70,7 @@
 
 .header__theme-menu-button.header__theme-menu-button_active {
   cursor: none;
+  pointer-events: none;
   border: 1px solid var(--accent-color);
 }
 
@@ -145,7 +147,6 @@
   inline-size: 25px;
   block-size: 25px;
   position: absolute;
-
   bottom: var(--padding-mobile);
   left: var(--padding-mobile);
 }
@@ -156,10 +157,14 @@
     padding: 20px;
     grid-template-rows: 43vh auto 43vh;
     margin-block-end: 60px;
+    min-block-size: 1024px;
   }
   
   .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header .title {
     position: relative;
     left: -20px;
   }
@@ -173,6 +178,7 @@
   
   .header {
     grid-template-rows: 39vh auto 39vh;
+    min-block-size: 768px;
   }
 
   .header__theme-menu {
@@ -255,7 +261,7 @@
   .why,
   .what,
   .how {
-    grid-template-columns: 32% auto;
+    grid-template-columns: 32.5% auto;
   }
 
   .what .section-content__list {
@@ -313,7 +319,7 @@
   align-items: center;
 }
 
-@media (width >= 1024px) {
+@media (width >= 768px) {
   
   .footer {
     margin-block-start: 60px;

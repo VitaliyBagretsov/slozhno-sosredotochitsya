@@ -55,11 +55,6 @@
     --accent-color: #ff8dcb;
   }
 
-  /* .theme_auto {
-    --text-color: #353430;
-    --accent-color: #ff8dcb;
-  } */
-
   .page.theme_auto {
     background-image: url(../images/cover-image-light.png);
   }
