@@ -243,6 +243,19 @@
   text-decoration: none;
 }
 
+.article__link:focus {
+  outline: none;
+}
+
+.article__link:focus-visible {
+  border: 1px solid var(--text-color);
+}  
+
+.article__link:hover {
+  text-decoration: underline;
+}
+
+
 .pictures {
   gap: 10px;
 }
